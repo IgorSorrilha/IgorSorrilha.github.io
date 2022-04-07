@@ -1,0 +1,126 @@
+.navbar-sunnyside {
+  background-color: #3ebfff;
+  border: none;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.navbar-sunnyside .navbar-brand {
+  margin-top: -8px;
+}
+
+.navbar-sunnyside .navbar-brand img {
+  width: 140%;
+}
+
+.navbar-sunnyside .navbar-header .navbar-toggle .icon-bar {
+  background-color: white;
+  margin-bottom: 6px;
+}
+
+.navbar-sunnyside .menu-sunnyside > li {
+  z-index: 100;
+}
+
+.navbar-sunnyside .menu-sunnyside > li > a {
+  color: white;
+  margin: 0 10px;
+}
+
+.navbar-sunnyside .menu-sunnyside > li > a:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.navbar-sunnyside .menu-sunnyside .nav-contact {
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  background-color: white;
+  color: black !important;
+  border-radius: 25px;
+  width: 95%;
+  padding-left: 30px;
+}
+
+.navbar-sunnyside .menu-sunnyside .nav-contact:hover,
+.navbar-sunnyside .menu-sunnyside .nav-contact:focus {
+  color: white !important;
+  background-color: #89d8ff;
+}
+
+.navbar-sunnyside .menu-sunnyside {
+  margin-right: 0px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .navbar-sunnyside {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  .navbar-sunnyside .navbar-brand img {
+    width: 120%;
+  }
+  .navbar-sunnyside .menu-sunnyside {
+    background-color: white;
+    width: 97%;
+    height: 22em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 5px;
+    margin-top: 25px;
+    padding-top: 30px;
+    position: relative;
+  }
+  .navbar-sunnyside .menu-sunnyside:before {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid white;
+    position: absolute;
+    top: -20px;
+    right: 0;
+  }
+  .navbar-sunnyside .menu-sunnyside > li > a {
+    color: grey;
+    line-height: 35px;
+    font-size: 20px;
+  }
+  .navbar-sunnyside .menu-sunnyside > li > a:hover {
+    background-color: transparent;
+    color: black;
+  }
+  .navbar-sunnyside .menu-sunnyside .nav-contact {
+    background-color: #fad400;
+    width: 87%;
+    height: 77%;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 15px;
+  }
+  .navbar-sunnyside .menu-sunnyside .nav-contact:hover {
+    background-color: #e5c303;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+@media (min-width: 1200px) {
+  .navbar-sunnyside .container {
+    width: 97%;
+  }
+}
+/*# sourceMappingURL=menu.css.map */

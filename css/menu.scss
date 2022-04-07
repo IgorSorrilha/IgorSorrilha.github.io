@@ -1,0 +1,158 @@
+.navbar-sunnyside {
+    background-color: #3ebfff;
+    border: none;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin: 0;
+
+    .navbar-brand {
+        margin-top: -8px;
+        
+        img{
+            width: 140%;
+        }
+    
+    }
+    
+    .navbar-header{
+        
+        .navbar-toggle{
+            
+            .icon-bar{
+                background-color: white;
+                margin-bottom: 6px;
+            }
+        }
+    }
+    
+    .menu-sunnyside {
+        
+        >li {
+            z-index: 100;
+        }
+
+        >li>a {
+            color: white;
+            margin: 0 10px;
+            
+            &:hover{
+                background-color: transparent;
+                color: black;
+            }
+
+        }
+
+        .nav-contact{
+            font-family: 'Fraunces', serif;
+            text-transform: uppercase;
+            background-color: white;
+            color: black!important;
+            border-radius: 25px;
+            width: 95%;
+            padding-left: 30px;
+        }
+
+        .nav-contact:hover,
+        .nav-contact:focus {
+            color: white!important;
+            background-color: #89d8ff;
+        }
+
+
+    }
+    
+    .menu-sunnyside {
+        margin-right: 0px;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .navbar-sunnyside{
+        padding-top: 20px;
+        padding-bottom: 5px;
+
+        .navbar-brand {
+            img{
+                width: 120%;
+            }
+        
+        }
+
+        .menu-sunnyside {
+            background-color: white;
+            width: 97%;
+            height: 22em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 5px;
+            margin-top: 25px;
+            padding-top: 30px;
+            position: relative;
+
+            &:before {
+                width: 0;
+                height: 0;
+                border-top: 20px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-right: 20px solid white;
+                position: absolute;
+                top: -20px;
+                right: 0;
+            }
+
+            >li>a {
+                color: grey;
+                line-height: 35px;
+                font-size: 20px;
+
+                &:hover{
+                    background-color: transparent;
+                    color: black
+                }
+
+            }
+
+            .nav-contact {
+                background-color: hsl(51, 100%, 49%);
+                width: 87%;
+                height: 77%;
+                padding-top: 10px;
+                padding-left: 30px;
+                margin-top: 15px;
+                margin-right: 20px;
+                font-size: 15px;
+
+                &:hover{
+                    background-color: #e5c303;
+                }
+            }
+        }
+    }
+   
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {
+    
+    
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+    
+   
+}
+
+/* Large */
+@media(min-width:1200px) { 
+    .navbar-sunnyside {
+        
+        .container{
+        width: 97%;
+        }
+    
+    }
+    
+}
